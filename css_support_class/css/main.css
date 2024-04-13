@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;  
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+
+body > header {
+    background-color: #B09E92;
+    padding: 16px 0;
+    color: #F5EAD8;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header li{
+    display: inline;
+    font-family: Poppins, sans-serif;
+    margin-left: 16px;
+}
+
+header li a {
+    appearance: button;
+    padding: 5px 10px;
+    background-color: #F5EAD8;
+    color: #B09E92;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s;
+    border-radius: 50px;
+
+
+}
+
+header li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /* height: 180px; */
+    width: 100%;  
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+section h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 44px;  
+    color: white;}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.articles article a {
+    background-color: white;
+    color: black;
+    padding:  8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: raleway, sans-serif;
+}
+
+.articles article p {
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.articles article h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+}
+
+#comebacks {
+    background-color: #F3E2B7;
+}
+
+#comebacks .articles article a{
+    background-color: #E6C371;
+    color: rgb(247, 247, 252);
+    transition: 0.2s;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+
+}
+
+#comebacks .articles article a:hover{
+    background-color: #E2B34B;
+
+}
+
+#fashion {
+    background-color: #CFC4C0;
+}
+
+#fashion .articles article a {
+    background-color: #9F897B;
+    color: rgb(247, 247, 252);
+    transition: 0.2s;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#fashion .articles article a:hover{
+    background-color: #866C5B;
+}
+
+#ent {
+    background-color: #F0CEB3;
+}
+
+#ent .articles article a {
+    background-color: #DE9D67;
+    color: rgb(247, 247, 252);
+    transition: 0.2s;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+}
+
+#ent .articles article a:hover{
+    background-color: #D8853F;
+}
+
+#tours {
+    background-color: #C7CDB3;
+}
+
+#tours .articles article a {
+    background-color: #8D9C65;
+    color: rgb(247, 247, 252);
+    transition: 0.2s;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+}
+
+#tours .articles article a:hover{
+    background-color: #71823E;
+}
+
+img {
+    max-width: 450px;
+    border-radius: 50%;
+}
